@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+}
+/*-----------------------------header start-----------------------*/
+.header{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 77px;
+	margin-bottom: 100px;
+}
+.header__main{
+	display: inline-block;
+	max-width: 40%;
+	vertical-align: middle;
+}
+.block_2{
+	max-width: 55%;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 75px;
+}
+
+.header__text_1{
+	font-size: 48pt;
+	color: rgba(0, 0, 0, 255);
+	text-align: left;
+	margin-bottom: 15px;
+}
+.header__text_2{
+	font-size: 30pt;
+	color: rgba(0, 0, 0, 255);
+	text-align: left;
+	margin-bottom: 35px;
+}
+.header__text_3{
+	font-size: 18pt;
+	color: rgba(0, 0, 0, 255);
+	text-align: left;
+	margin-bottom: 47px;
+}
+.header__text_4{
+	font-size: 48pt;
+	color: rgba(49, 49, 49, 255);
+	text-align: left;
+	margin-bottom: 53px;
+}
+.button:focus{
+	outline: none; 
+}
+.button{
+	background-color: #F15921;
+	font-size: 24pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: left;
+	padding: 22px 43px;
+	border-radius:5px;
+	border:2px solid #F15921;
+}
+
+.button_3{
+	background-color: transparent;
+	font-size: 24pt;
+	color:#F15921;
+}
+.btn_1{
+	display: inline-block;
+}
+.btn_1:nth-child(1n){
+	margin-right: 30px;
+}
+/*---------------------header end------------------------------*/
+
+/*----------------------section start-----------------------------*/
+.features{
+	width: auto;
+	background-color: #f2f2f2;
+}
+.text_1{
+	font-weight: 700;
+	font-size: 30pt;
+	color: rgba(51, 51, 51, 255);
+	text-align: center;
+	padding-top: 89px;
+	margin-bottom: 80px;
+}
+.icon_1{
+	width: 20%;
+	text-align: center;
+	font-size: 15pt;
+	color: rgba(51, 51, 51, 255);
+	display: inline-block;
+	margin-bottom: 80px;
+}
+.features_wrap{
+	text-align: center;
+}
+/*-------------------------section end--------------------------------*/
+
+/*------------------------section foto start--------------------------*/
+.foto{
+	margin-top: 80px;
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.who_buy{
+	font-size: 30pt;
+	color: rgba(51, 51, 51, 255);
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 80px;
+}
+.img{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/*--------------------------section foto end--------------------------*/
